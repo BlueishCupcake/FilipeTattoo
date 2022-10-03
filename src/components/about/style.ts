@@ -22,7 +22,7 @@ export const Bg = styled.div`
 
 export const AboutWrapper = styled.div`
   position: absolute;
-  padding-top: 160px;
+  padding-top: 80px;
   text-shadow: 2px 2px 1px var(--black);
   top: 0;
   left: 0;
@@ -32,6 +32,7 @@ export const AboutWrapper = styled.div`
 
   @media (min-width: 360px) and (max-width: 810px) {
     position: relative;
+    padding-top: 160px;
   }
 
   > p,
@@ -43,9 +44,8 @@ export const AboutWrapper = styled.div`
     line-height: 40px;
 
     @media (min-width: 360px) and (max-width: 810px) {
-      font-size: 16px;
-      line-height: 14px;
-      padding: 10px 0;
+      padding: 20px 0;
+      width: 90%;
     }
   }
 `;
