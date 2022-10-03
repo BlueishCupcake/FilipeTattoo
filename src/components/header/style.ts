@@ -15,11 +15,27 @@ export const SHeader = styled.header`
   width: 100%;
   border-bottom: 2px solid var(--eggBlue);
   z-index: 2;
+
+  @media (max-width: 440px) {
+    place-content: flex-start;
+    place-items: flex-start;
+    flex-flow: column wrap;
+    padding-left: 16px;
+  }
 `;
 
 export const LinkWrapper = styled.div`
   display: flex;
   place-content: flex-end;
+
+  @media (max-width: 440px) {
+    place-content: center;
+    flex-flow: wrap;
+  }
+  @media (min-width: 441px) and (max-width: 810px) {
+    place-content: center;
+    place-items: center;
+  }
 `;
 
 export const SLinks = styled.span<LinksTypes>`
@@ -52,6 +68,11 @@ export const SLinks = styled.span<LinksTypes>`
     &:hover {
       color: ${({ isActive }) =>
         isActive ? `var(--black)` : `var(--eggBlue)`};
+    }
+
+    @media (min-width: 440px) and (max-width: 810px) {
+      padding: 0 20px;
+      font-size: 16px;
     }
   }
 

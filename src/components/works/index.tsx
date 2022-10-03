@@ -3,7 +3,6 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 import { Gallery } from "react-grid-gallery";
 
-import { workTexts } from "helpers/texts/workTexts";
 import { workImages, CustomImage } from "helpers/images/workImages";
 
 import * as S from "./style";
