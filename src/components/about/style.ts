@@ -45,9 +45,15 @@ export const AboutWrapper = styled.div`
 
     @media (min-width: 360px) and (max-width: 810px) {
       padding: 20px 0;
-      width: 90%;
+      width: 80%;
       line-height: normal;
       font-size: 18px;
+      text-align: left;
     }
+  }
+
+  > h2 {
+    text-align: center;
+    font-size: 24px;
   }
 `;

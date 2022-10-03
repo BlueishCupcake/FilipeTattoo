@@ -20,21 +20,21 @@ export const SHeader = styled.header`
     place-content: flex-start;
     place-items: flex-start;
     flex-flow: column wrap;
-    padding-left: 16px;
+  }
+
+  > h2 {
+    text-align: center;
+    width: 100%;
   }
 `;
 
 export const LinkWrapper = styled.div`
   display: flex;
   place-content: flex-end;
+  width: 100%;
 
-  @media (max-width: 440px) {
-    place-content: center;
-    flex-flow: wrap;
-  }
-  @media (min-width: 441px) and (max-width: 810px) {
-    place-content: center;
-    place-items: center;
+  @media (min-width: 360px) and (max-width: 810px) {
+    place-content: flex-start;
   }
 `;
 
@@ -49,6 +49,11 @@ export const SLinks = styled.span<LinksTypes>`
 
   background-color: ${({ isActive }) =>
     isActive ? `var(--eggBlue)` : `transparent`};
+
+  @media (min-width: 360px) and (max-width: 810px) {
+    font-size: 16px;
+    width: 100%;
+  }
 
   a {
     padding: 0 32px;
@@ -70,9 +75,9 @@ export const SLinks = styled.span<LinksTypes>`
         isActive ? `var(--black)` : `var(--eggBlue)`};
     }
 
-    @media (min-width: 440px) and (max-width: 810px) {
-      padding: 0 20px;
+    @media (min-width: 360px) and (max-width: 810px) {
       font-size: 16px;
+      margin: 0 auto;
     }
   }
 
