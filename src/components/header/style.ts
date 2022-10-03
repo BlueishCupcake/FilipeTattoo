@@ -25,7 +25,6 @@ export const LinkWrapper = styled.div`
 export const SLinks = styled.span<LinksTypes>`
   cursor: pointer;
   font-size: 20px;
-  padding: 0 32px;
   transition: color 0.3s;
   height: 80px;
   display: flex;
@@ -36,6 +35,14 @@ export const SLinks = styled.span<LinksTypes>`
     isActive ? `var(--eggBlue)` : `transparent`};
 
   a {
+    padding: 0 32px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: color 0.3s;
+    height: 80px;
+    display: flex;
+    place-items: center;
+    border: none;
     color: ${({ isActive }) =>
       isActive ? `var(--black)` : `var(--lightRed) `};
     text-decoration: none;

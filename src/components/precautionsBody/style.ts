@@ -8,5 +8,5 @@ export const Body = styled.div`
   max-width: 50%;
   text-align: left;
   margin: 0 auto;
-  padding-top: 80px;
+  padding: 160px 0;
 `;

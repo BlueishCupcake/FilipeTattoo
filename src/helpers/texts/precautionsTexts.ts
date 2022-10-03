@@ -16,7 +16,7 @@ export const precautionsTexts = {
   fifthItem:
     "★ Evitar passar creme em excesso na tatuagem, principalmente cremes com petróleo, pois criam uma barreira que impede a pele de respirar e cicatrizar corretamente;",
   sixthItem:
-    "★ Evitar alimentos que prejudicam a cicatrização, como carne de porco, frituras e embutidos;",
+    "★ Evitar alimentos que prejudicam a cicatrização, como carne de porco, frituras e embutidos, assim como evitar ingerir alcool.",
   seventhItem:
     "★ Não usar roupa muito apertada, pois evita a respiração da pele e também pode acabar puxando as casquinhas de pele que ajudam na cicatrização;",
   eigthItem:

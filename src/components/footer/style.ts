@@ -20,9 +20,9 @@ export const InfoWrapper = styled.div`
 
 export const BtnWrapper = styled.div`
   display: flex;
-  width: 100%;
+  width: 50%;
   flex-flow: wrap;
-  place-content: space-evenly;
+  place-content: space-around;
 `;
 
 export const Links = styled.a`

@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
       <S.InfoWrapper>
         <span>{footerTexts.city}</span>
         <span>{footerTexts.street}</span>
-        <span>{footerTexts.phone}</span>
+        <span>{footerTexts.studio}</span>
         <S.BtnWrapper>
           <S.Links
             href="https://www.instagram.com/machadotattoo__/"
