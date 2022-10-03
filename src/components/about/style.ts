@@ -46,6 +46,8 @@ export const AboutWrapper = styled.div`
     @media (min-width: 360px) and (max-width: 810px) {
       padding: 20px 0;
       width: 90%;
+      line-height: normal;
+      font-size: 18px;
     }
   }
 `;
