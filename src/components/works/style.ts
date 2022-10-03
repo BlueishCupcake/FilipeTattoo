@@ -5,8 +5,7 @@ export const WorkBody = styled.div`
   text-align: center;
 `;
 
-export const WorksWrapper = styled.section`
-  display: flex;
-  width: 100%;
-  place-content: space-evenly;
+export const WorksWrapper = styled.div`
+  width: 50%;
+  margin: 0 auto;
 `;
