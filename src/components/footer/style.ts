@@ -20,8 +20,9 @@ export const InfoWrapper = styled.div`
 
 export const BtnWrapper = styled.div`
   display: flex;
-  flex-flow: column;
-  padding-left: 20px;
+  width: 100%;
+  flex-flow: wrap;
+  place-content: space-evenly;
 `;
 
 export const Links = styled.a`
