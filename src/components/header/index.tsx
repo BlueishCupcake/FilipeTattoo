@@ -16,8 +16,8 @@ export const Header: React.FC = () => {
           <Link to="/"> {headerTexts.home}</Link>
         </S.SLinks>
 
-        <S.SLinks isActive={location.pathname === "/meus-estilos"}>
-          <Link to="/meus-estilos"> {headerTexts.work}</Link>
+        <S.SLinks isActive={location.pathname === "/galeria"}>
+          <Link to="/galeria"> {headerTexts.work}</Link>
         </S.SLinks>
 
         <S.SLinks isActive={location.pathname === "/cuidados"}>

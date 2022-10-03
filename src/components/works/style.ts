@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WorkBody = styled.div`
-  padding-top: 80px;
+  padding-top: 160px;
   text-align: center;
 `;
 

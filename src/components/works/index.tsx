@@ -24,8 +24,6 @@ export const Works: React.FC = () => {
 
   return (
     <S.WorkBody>
-      <h2>{workTexts.title}</h2>
-
       <S.WorksWrapper>
         <Gallery
           images={workImages}
