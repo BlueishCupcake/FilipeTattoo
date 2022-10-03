@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
-export const HomeBody = styled.div`
+export const Body = styled.div`
   display: flex;
   place-content: center;
   place-items: center;
   flex-flow: column;
-`;
-
-export const SVideo = styled.video`
-  width: 100%;
+  max-width: 50%;
+  text-align: left;
+  margin: 0 auto;
   padding-top: 80px;
 `;

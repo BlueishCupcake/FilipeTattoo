@@ -1,7 +1,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import styled from "styled-components";
 
 import { Home } from "./home";
+import { Precautions } from "./precautions";
 import { RecentWorks } from "./works";
+
+const Body = styled.div`
+  min-height: calc(100vh - 137px);
+`;
 
 const router = createBrowserRouter([
   {
@@ -12,8 +18,16 @@ const router = createBrowserRouter([
     path: "/meus-estilos",
     element: <RecentWorks />,
   },
+  {
+    path: "/cuidados",
+    element: <Precautions />,
+  },
 ]);
 
-const Routes = () => <RouterProvider router={router} />;
+const Routes = () => (
+  <Body>
+    <RouterProvider router={router} />
+  </Body>
+);
 
 export default Routes;

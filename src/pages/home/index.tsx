@@ -8,8 +8,8 @@ export const Home: React.FC = () => {
     <S.HomeBody>
       <Header />
 
-      <S.SVideo src="work-video.mp4" autoPlay loop />
       <Map />
+      <S.SVideo src="work-video.mp4" autoPlay loop />
     </S.HomeBody>
   );
 };

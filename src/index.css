@@ -7,8 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h2 {
+h2,
+p {
   color: var(--lightRed);
+}
+
+p {
+  font-size: 18px;
 }
 
 code {

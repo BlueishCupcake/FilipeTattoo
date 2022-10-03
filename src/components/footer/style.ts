@@ -6,7 +6,6 @@ export const SFooter = styled.footer`
   justify-content: space-around;
   background-color: var(--black);
   color: var(--white);
-  position: relative;
   width: 100%;
   padding: 28px 0;
   border-top: 2px solid var(--eggBlue);
