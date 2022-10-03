@@ -8,4 +8,8 @@ export const WorkBody = styled.div`
 export const WorksWrapper = styled.div`
   width: 50%;
   margin: 0 auto;
+
+  img {
+    object-fit: cover;
+  }
 `;

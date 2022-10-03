@@ -5,7 +5,7 @@ export const SFooter = styled.footer`
   align-items: center;
   justify-content: space-around;
   background-color: var(--black);
-  color: var(--white);
+  color: var(--lightRed);
   width: 100%;
   padding: 28px 0;
   border-top: 2px solid var(--eggBlue);

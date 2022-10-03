@@ -14,7 +14,7 @@ export const SHeader = styled.header`
   left: 0;
   width: 100%;
   border-bottom: 2px solid var(--eggBlue);
-  z-index: 1;
+  z-index: 2;
 `;
 
 export const LinkWrapper = styled.div`

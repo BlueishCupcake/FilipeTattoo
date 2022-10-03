@@ -1,3 +1,4 @@
+import { About } from "components/about";
 import { Header } from "components/header";
 import { Map } from "components/map";
 
@@ -8,7 +9,10 @@ export const Home: React.FC = () => {
     <S.HomeBody>
       <Header />
 
+      <About />
+
       <Map />
+
       <S.SVideo src="work-video.mp4" autoPlay loop />
     </S.HomeBody>
   );
