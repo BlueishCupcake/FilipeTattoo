@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: var(--yankeesBlue);
+
+  font-family: "Abyssinica SIL", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  color: var(--lightRed);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html:root {
+  --white: hsl(45, 2%, 90%);
+  --yankeesBlue: hsl(192, 64%, 12%);
+  --black: hsl(0, 5%, 9%);
+  --eggBlue: hsl(181, 54%, 61%);
+  --lightRed: hsl(15, 100%, 93%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
