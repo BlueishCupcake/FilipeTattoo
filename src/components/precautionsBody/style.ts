@@ -12,5 +12,6 @@ export const Body = styled.div`
 
   @media (min-width: 360px) and (max-width: 810px) {
     padding: 240px 0 80px;
+    max-width: 80%;
   }
 `;
