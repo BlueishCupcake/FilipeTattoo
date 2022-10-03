@@ -1,3 +1,3 @@
 export const mapTexts = {
-  title: "Onde nos encontrar?",
+  title: "Onde encontrar o studio:",
 };

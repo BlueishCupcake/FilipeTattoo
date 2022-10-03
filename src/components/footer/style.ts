@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SFooter = styled.footer`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-color: var(--black);
   color: var(--lightRed);
   width: 100%;
@@ -15,6 +15,24 @@ export const InfoWrapper = styled.div`
   display: flex;
   flex-flow: column;
   align-items: center;
-
   gap: 8px;
+`;
+
+export const BtnWrapper = styled.div`
+  display: flex;
+  flex-flow: column;
+  padding-left: 20px;
+`;
+
+export const Links = styled.a`
+  padding: 10px 0;
+
+  display: flex;
+  place-content: center;
+
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--lightRed);
+  transition: 0.3s;
 `;

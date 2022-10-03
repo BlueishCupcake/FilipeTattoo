@@ -13,7 +13,7 @@ export const Bg = styled.div`
   background-image: url("studio.jpg");
   background-size: cover;
   opacity: 0.3;
-  height: 1200px;
+  height: 1100px;
 `;
 
 export const AboutWrapper = styled.div`
